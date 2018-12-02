@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String args[]){
-        String host = "77.138.96.175";
-        int port    = 5551;
+        String host = "your ip";
+        int port    = your port;
         try {
             Socket socket = new Socket(host,port);
             DataInputStream inputStream   = new DataInputStream(socket.getInputStream());
